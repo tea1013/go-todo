@@ -64,6 +64,20 @@
   version = "v0.8.0"
 
 [[projects]]
+  branch = "master"
+  digest = "1:c02950f6a22d9eae2796653319ca74d076986dcae54c185b7103f030e2c51c7b"
+  name = "github.com/voyagegroup/go-todo"
+  packages = [
+    ".",
+    "controller",
+    "db",
+    "httputil",
+    "model",
+  ]
+  pruneopts = "UT"
+  revision = "d1ca7b6df31b49d8a220271941ebe776aedf05ba"
+
+[[projects]]
   branch = "v1"
   digest = "1:4384086c0f7f9e662c2ae8e900af35dc75ff262205b362597bb65af2fd8a21c9"
   name = "gopkg.in/yaml.v1"
@@ -82,6 +96,11 @@
     "github.com/gorilla/sessions",
     "github.com/jmoiron/sqlx",
     "github.com/pkg/errors",
+    "github.com/voyagegroup/go-todo",
+    "github.com/voyagegroup/go-todo/controller",
+    "github.com/voyagegroup/go-todo/db",
+    "github.com/voyagegroup/go-todo/httputil",
+    "github.com/voyagegroup/go-todo/model",
     "gopkg.in/yaml.v1",
   ]
   solver-name = "gps-cdcl"
